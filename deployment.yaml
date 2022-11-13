@@ -18,7 +18,7 @@ spec:
         app: flaskdemo
     spec:
       containers:
-      - image: manobrata/mytestalpine
+      - image: manobrata/mytestalpine:11
         name: flaskdemo
         resources: {}
 status: {}
